@@ -7,6 +7,7 @@ import GetBackToHomePage from "./GetBackToHomePage";
 const Alldetailsofsingleuser = () => {
   const [userDetails, setUserDetails] = useState(null);
   const { userId } = useParams();
+  const i = 0;
 
   useEffect(() => {
     const fetchUserDetails = async () => {
